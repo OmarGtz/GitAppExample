@@ -1,3 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
+=======
+# CodeStream ignored files
+/codestream.xml
+>>>>>>> 292094ecf74c96a573a11941b537ebf0e9a0a6f1
