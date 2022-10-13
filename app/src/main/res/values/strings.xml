@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyGitAppExample</string>
+    <string name="button_start">Play</string>
 </resources>
