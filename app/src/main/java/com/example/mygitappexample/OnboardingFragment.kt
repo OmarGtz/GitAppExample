@@ -1,15 +1,12 @@
 package com.example.mygitappexample
 
 import android.os.Bundle
-import android.os.Parcel
-import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.mygitappexample.OnboardingFragment as OnboardingFragment1
 
-class OnboardingFragment() : Fragment() {
+class OnboardingFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
