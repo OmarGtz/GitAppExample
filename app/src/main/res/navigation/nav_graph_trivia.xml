@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_trivia"
+    app:startDestination="@id/onboardingFragment">
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.example.mygitappexample.OnboardingFragment"
+        android:label="OnboardingFragment"
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/action_onboardingFragment_to_congratulationFragment2"
+            app:destination="@id/congratulationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.mygitappexample.AboutFragment"
+        android:label="AboutFragment"
+        tools:layout="@layout/fragment_about"
+        />
+    <fragment
+        android:id="@+id/congratulationFragment"
+        android:name="com.example.mygitappexample.CongratulationFragment"
+        android:label="CongratulationFragment"
+        tools:layout="@layout/fragment_congratulation"
+        >
+        <action
+            android:id="@+id/action_congratulationFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+    </fragment>
+</navigation>
