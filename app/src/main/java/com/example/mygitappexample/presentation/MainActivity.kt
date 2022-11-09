@@ -1,7 +1,8 @@
-package com.example.mygitappexample
+package com.example.mygitappexample.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mygitappexample.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

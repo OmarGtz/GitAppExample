@@ -1,4 +1,4 @@
-package com.example.mygitappexample
+package com.example.mygitappexample.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
-import androidx.navigation.fragment.findNavController
+import com.example.mygitappexample.R
 
 class CongratulationFragment:Fragment() {
 

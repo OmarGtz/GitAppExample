@@ -6,22 +6,35 @@
     app:startDestination="@id/onboardingFragment">
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="com.example.mygitappexample.OnboardingFragment"
+        android:name="com.example.mygitappexample.presentation.OnboardingFragment"
         android:label="OnboardingFragment"
         tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/action_onboardingFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.example.mygitappexample.AboutFragment"
+        android:name="com.example.mygitappexample.presentation.AboutFragment"
         android:label="AboutFragment"
         tools:layout="@layout/fragment_about"
         />
     <fragment
         android:id="@+id/congratulationFragment"
-        android:name="com.example.mygitappexample.CongratulationFragment"
+        android:name="com.example.mygitappexample.presentation.CongratulationFragment"
         android:label="CongratulationFragment"
         tools:layout="@layout/fragment_congratulation"
         >
-
     </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.mygitappexample.presentation.GameFragment"
+        android:label="GameFragment"
+        tools:layout="@layout/fragment_game"
+        >
+        <action
+            android:id="@+id/action_gameFragment_to_congratulationFragment"
+            app:destination="@id/congratulationFragment" />
+    </fragment>
+
 </navigation>
