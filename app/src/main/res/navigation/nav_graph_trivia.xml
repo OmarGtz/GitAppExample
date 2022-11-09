@@ -9,9 +9,6 @@
         android:name="com.example.mygitappexample.OnboardingFragment"
         android:label="OnboardingFragment"
         tools:layout="@layout/fragment_onboarding">
-        <action
-            android:id="@+id/action_onboardingFragment_to_congratulationFragment2"
-            app:destination="@id/congratulationFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -25,8 +22,6 @@
         android:label="CongratulationFragment"
         tools:layout="@layout/fragment_congratulation"
         >
-        <action
-            android:id="@+id/action_congratulationFragment_to_aboutFragment"
-            app:destination="@id/aboutFragment" />
+
     </fragment>
 </navigation>
