@@ -1,10 +1,5 @@
 package com.example.mygitappexample.data
 
-/**
- * QuestionStore
- *
- * @author (c) 2022, UVI TECH SAPI De CV, KAVAK
- */
 object QuestionStore {
     val questions = listOf<Question>(
         Question("Que es android?", listOf(
