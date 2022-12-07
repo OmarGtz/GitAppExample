@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/android_category_simple.xml" value="0.439" />
         <entry key="app/src/main/res/drawable/android_trivia.xml" value="0.1245" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.16728624535315986" />
         <entry key="app/src/main/res/layout/fragment_congratulation.xml" value="0.264945652173913" />
+        <entry key="app/src/main/res/layout/fragment_game.xml" value="0.4401041666666667" />
         <entry key="app/src/main/res/layout/fragment_onboarding.xml" value="0.1906779661016949" />
       </map>
     </option>
